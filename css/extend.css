@@ -222,10 +222,10 @@
 
 @media only screen and (max-device-width: 990px) {
   .home .home-all .home-info {
-    width: 70vw  !important;
+    width: 80vw  !important;
     margin: 0 auto;
     margin-bottom: 3rem;
-    margin-left: 1rem !important;
+    margin-left: -1rem !important;
   }
 }
 
@@ -276,22 +276,29 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 3rem;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
 }
 
+@media only screen and (max-device-width: 990px) {
+  .home .home-all .home-info .info-socials {
+    margin-right: 1rem;
+  }
+}
+
+.home .home-all .home-info .info-socials a {
+  width: 30px !important;
+}
+
 .home .home-all .home-info .info-socials .i {
   color: #bbb;
-  margin-right: 1.5rem;
-  width: 2rem;
 }
 
 .home .home-all .home-info .info-socials .i i {
   margin-top: .7rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: all 0.3s linear;
@@ -1475,6 +1482,7 @@ body {
   .player {
     width: 20rem;
     height: 12rem;
+    right: 0 !important;
   }
 }
 

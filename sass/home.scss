@@ -175,10 +175,10 @@
             }
 
             @include respond(laptop){
-              width:70vw  !important;
+              width:80vw  !important;
               margin: 0 auto ;
               margin-bottom: 3rem;
-              margin-left: 1rem !important;
+              margin-left: -1rem !important;
             }
             .info-name h3{
                 width: 100%;
@@ -216,16 +216,25 @@
             }
             .info-socials {
                 display: flex;
-                height:3rem ;
+                
                 flex-direction: row;
+
+                
+                @include respond(laptop){
+                  
+                  margin-right: 1rem;
+                }
+                a{
+                  width: 30px !important;
+                }
                 .i{
                     color: #bbb;
-                    margin-right: 1.5rem;
-                    width: 2rem;
+                    // margin-right: 1.5rem;
+                    // width: 2rem;
                     // cursor: pointer;
                     i{
                     margin-top:.7rem;
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                     transform:scale(1);
                     transition: all 0.3s linear;
                     &:hover{

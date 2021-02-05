@@ -18,6 +18,7 @@
       @include respond(laptop){
         width: 20rem;
         height: 12rem;
+        right: 0 !important;
       }
 
     }
