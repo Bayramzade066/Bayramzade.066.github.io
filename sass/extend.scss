@@ -5,12 +5,13 @@
 @import "./contact.scss";
 @import "./bg.sass";
 @import "./breakpoint.scss";
-
+@import "./music.scss";
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 .lines{
     z-index: -9999;
 }
 
-
+// html,*{cursor: none;}
 // reset
 *{
     margin: 0;
@@ -269,7 +270,7 @@ body{
 // animation 
 
 .section__anima{
-    animation: sectionanima 0.5s linear;
+    animation: sectionanima 0.65s linear;
 
 }
 
@@ -283,9 +284,31 @@ body{
         opacity: 1;
     }
 }
+// cursor
+
+
+// .cursor {
+//   right: 0;
+//   top: 0;
+//   width: 14px;
+//   height: 14px;
+//   background-color: whitesmoke;
+//   position: absolute;
+//   border: 1px solid black;
+//   border-radius: 50%;
+//   z-index: 999999999;
+// }
+
+// .cursor__follower {
+//   background-color: whitesmoke;
+//   transition: transform .4s;
+//   width: 6px;
+//   height: 6px;
+//   z-index: 999999999;
+// }
 
 
 
 
-// responsive start
+
 
