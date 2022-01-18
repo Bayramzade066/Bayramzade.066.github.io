@@ -129,7 +129,7 @@ body{
     @include respond(desktop){
         width: 100% !important;
         height: 70px !important;
-        padding: 20px 40px !important;
+        padding: 20px 20px !important;
         min-height: unset !important;
         display: flex;
         justify-content: space-between !important;
@@ -150,6 +150,9 @@ body{
             height: 5rem;
             display: flex !important;
             bottom: 20% !important;
+        }
+        @include respond(laptop){
+          margin-right:1rem;
         }
     }
     
@@ -174,6 +177,7 @@ body{
         .nav-menu{
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
             padding: 15rem 0 0 0;
 
             @include respond(desktop){
@@ -223,12 +227,12 @@ body{
     .i{
         color: #bbb;
         margin-right: .7rem;
-        width: 2rem;
+        // width: 2rem;
         transition: 0.6s;
 
-        @include respond(desktop){
-            margin-right: 1.2rem !important;
-        }
+        // @include respond(desktop){
+        //     // margin-right: 1.2rem !important;
+        // }
         i{
           color:  #c55923;
         margin-top:.7rem;
