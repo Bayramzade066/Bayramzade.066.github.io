@@ -113,12 +113,12 @@ var txt2write = new Array(
     );
 
 // Variables
-var speed = 40; // You can set the speed here. + is slower
+var speed = 35; // You can set the speed here. + is slower
 var index = 0;
 text_pos = 0;
 var str_length = txt2write[0].length;
 var contents, row;
-
+// \r<br />
 // Function
 function type_text() {
     // Init the content with blank
@@ -126,7 +126,7 @@ function type_text() {
     row = Math.max(0, index - 9);
     while (row < index) {
         // Each sentence will end with a <br />
-        contents += txt2write[row++] + '\r<br />';
+        contents += txt2write[row++] + ' ';
     }
 
     // Write the text
@@ -144,7 +144,6 @@ function type_text() {
     }
 
 }
-
 
 
 let about = document.querySelector("#about")
