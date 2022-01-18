@@ -297,11 +297,17 @@
 
 .home .home-all .home-info .info-socials .i i {
   margin-top: .7rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
+}
+
+@media only screen and (max-device-width: 990px) {
+  .home .home-all .home-info .info-socials .i i {
+    font-size: 1.5rem !important;
+  }
 }
 
 .home .home-all .home-info .info-socials .i i:hover {

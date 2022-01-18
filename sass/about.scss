@@ -105,6 +105,7 @@
 
                     @include respond(laptop){
                         padding-left: 0 !important;
+                        font-size: 1.3rem !important;
                     }
                 span{
                     display: inline-block;
