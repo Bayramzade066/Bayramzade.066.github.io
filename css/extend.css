@@ -925,12 +925,6 @@ a {
   padding: 2.5rem 4rem 2rem;
 }
 
-@media only screen and (max-device-width: 990px) {
-  .blogs .blogs-all .cards .card .card-text {
-    margin-top: 1rem !important;
-  }
-}
-
 .blogs .blogs-all .cards .card .card-text .text-1 {
   color: #bbb;
   line-height: 3rem;
@@ -954,6 +948,12 @@ a {
   transition: 0.8s;
   letter-spacing: 0.2rem;
   font-size: 1.3rem;
+}
+
+@media only screen and (max-device-width: 990px) {
+  .blogs .blogs-all .cards .card .card-text .text-1 {
+    font-size: 1rem !important;
+  }
 }
 
 .blogs .blogs-all .cards .card .card-text .text-2 {
