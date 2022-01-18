@@ -113,6 +113,13 @@
 @media only screen and (max-device-width: 990px) {
   .portfolio .portfolio-all .portfolio-img {
     width: 70vw !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
   }
 }
 
@@ -213,5 +220,11 @@
 @media only screen and (max-device-width: 1280px) {
   .portfolio .portfolio-all .portfolio-img a {
     padding-left: 0 !important;
+  }
+}
+
+@media only screen and (max-device-width: 990px) {
+  .portfolio .portfolio-all .portfolio-img a {
+    margin-left: 0rem !important;
   }
 }

@@ -69,6 +69,8 @@
 
         @include respond(laptop){
             width: 70vw !important;
+            display: flex;
+            flex-direction: column !important;
         }
         .img{
             background-image: url("../img/gray2.jpg");
@@ -129,7 +131,11 @@
             margin-bottom: 4rem;
 
             @include respond(desktop){
-                padding-left: 0 !important
+                padding-left: 0 !important;
+            
+            }
+            @include respond(laptop){
+                margin-left: 0rem !important;
             }
         }
     }
