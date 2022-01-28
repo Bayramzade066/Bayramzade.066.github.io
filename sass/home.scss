@@ -168,14 +168,14 @@
             align-items: left;
             margin-left: 7rem;
             @include respond(desktop){
-              width:85.84vw  !important;
+              width:75.84vw  !important;
               padding-left: 10rem !important;
               margin-bottom: 2rem;
               margin-left: 1rem !important;
             }
 
             @include respond(laptop){
-              width:80vw  !important;
+              width:60vw  !important;
               margin: 0 auto ;
               margin-bottom: 3rem;
               margin-left: -1rem !important;
@@ -190,7 +190,9 @@
                 margin-bottom: 2rem;
                 position: relative;
 
-
+                @include respond(desktop){
+                  width: 55rem !important;
+                }
                 @include respond(laptop){
                   width: 55.84vw !important;
                   font-size: 3.5rem !important;

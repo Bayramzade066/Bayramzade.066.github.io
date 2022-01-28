@@ -212,7 +212,7 @@
 
 @media only screen and (max-device-width: 1280px) {
   .home .home-all .home-info {
-    width: 85.84vw  !important;
+    width: 75.84vw  !important;
     padding-left: 10rem !important;
     margin-bottom: 2rem;
     margin-left: 1rem !important;
@@ -221,7 +221,7 @@
 
 @media only screen and (max-device-width: 990px) {
   .home .home-all .home-info {
-    width: 80vw  !important;
+    width: 60vw  !important;
     margin: 0 auto;
     margin-bottom: 3rem;
     margin-left: -1rem !important;
@@ -237,6 +237,12 @@
   text-transform: uppercase;
   margin-bottom: 2rem;
   position: relative;
+}
+
+@media only screen and (max-device-width: 1280px) {
+  .home .home-all .home-info .info-name h3 {
+    width: 55rem !important;
+  }
 }
 
 @media only screen and (max-device-width: 990px) {

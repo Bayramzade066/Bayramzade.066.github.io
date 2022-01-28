@@ -44,7 +44,10 @@ for(let i =0;i<nav__menu.length;i++){
             arr[i].style.opacity="1"
         arr[i].style.display="flex";
         arr[i].classList.add("section__anima")
-        // console.log(arr[i].style.display)
+
+
+
+
         for(let x = 0; x<arr.length;x++){
             if(x==i)
                 continue
@@ -113,7 +116,7 @@ var txt2write = new Array(
     );
 
 // Variables
-var speed = 35; // You can set the speed here. + is slower
+var speed = 30; // You can set the speed here. + is slower
 var index = 0;
 text_pos = 0;
 var str_length = txt2write[0].length;
@@ -142,7 +145,6 @@ function type_text() {
     } else {
         setTimeout("type_text()", speed);
     }
-
 }
 
 
