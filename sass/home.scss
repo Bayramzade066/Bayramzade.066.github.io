@@ -167,12 +167,15 @@
             justify-content: left;
             align-items: left;
             margin-left: 7rem;
+            margin-bottom: 2rem !important;
             @include respond(desktop){
               width:75.84vw  !important;
               padding-left: 10rem !important;
-              margin-bottom: 2rem;
+              margin-bottom: 2rem !important;
               margin-left: 1rem !important;
+              
             }
+            
 
             @include respond(laptop){
               width:60vw  !important;
