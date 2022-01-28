@@ -31,7 +31,7 @@
   margin-right: 5rem;
 }
 
-@media only screen and (max-device-width: 1280px) {
+@media only screen and (max-device-width: 1000px) {
   .portfolio .portfolio-all {
     margin: 0 auto !important;
     margin-top: 3% !important;
@@ -60,7 +60,7 @@
   margin-left: 5rem;
 }
 
-@media only screen and (max-device-width: 1280px) {
+@media only screen and (max-device-width: 1000px) {
   .portfolio .portfolio-all .portfolio-head {
     margin-left: 0 !important;
   }
@@ -217,7 +217,7 @@
   margin-bottom: 4rem;
 }
 
-@media only screen and (max-device-width: 1280px) {
+@media only screen and (max-device-width: 1000px) {
   .portfolio .portfolio-all .portfolio-img a {
     padding-left: 0 !important;
   }
