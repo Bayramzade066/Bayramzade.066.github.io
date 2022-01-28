@@ -14,7 +14,7 @@
       @if $breakpoint==desktop{
         
 
-        @media only screen and (max-device-width:1280px) {
+        @media only screen and (max-device-width:1000px) {
           @content;
         }
       }

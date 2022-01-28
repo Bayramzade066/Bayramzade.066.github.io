@@ -30,7 +30,7 @@
   padding-bottom: 10rem;
 }
 
-@media only screen and (max-device-width: 1280px) {
+@media only screen and (max-device-width: 1000px) {
   .about .about-all {
     margin: 0 auto !important;
     -webkit-box-orient: vertical !important;

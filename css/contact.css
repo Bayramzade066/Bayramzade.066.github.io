@@ -30,7 +30,7 @@
   padding-bottom: 2.5rem;
 }
 
-@media only screen and (max-device-width: 1280px) {
+@media only screen and (max-device-width: 1000px) {
   .contact .contact-all {
     margin: 0 auto !important;
     margin-top: 3% !important;
@@ -58,7 +58,7 @@
   margin-bottom: 5rem;
 }
 
-@media only screen and (max-device-width: 1280px) {
+@media only screen and (max-device-width: 1000px) {
   .contact .contact-all .contact-head {
     margin-left: 0 !important;
   }

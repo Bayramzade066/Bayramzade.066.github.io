@@ -120,10 +120,10 @@ body{
 .header{
     position: fixed;
     z-index: 999;
-    width:40rem;
+    width:30rem;
     min-height: 100vh;
     background-color: #000;
-    padding: 5rem 10rem 0 10rem;
+    padding: 5rem 10rem 0 6rem;
     box-shadow: 1px 3px 2px black;
 
     @include respond(desktop){
