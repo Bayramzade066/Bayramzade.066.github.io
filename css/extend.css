@@ -28,7 +28,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 30vw;
+  margin-left: 32vw;
 }
 
 @media only screen and (min-device-width: 1350px) {
@@ -246,7 +246,7 @@
 }
 
 .home .home-all .home-main .home-info .info-name h3 {
-  width: 100%;
+  width: 90%;
   color: #FFFFFF;
   font-size: 5rem;
   letter-spacing: 2px;
@@ -367,6 +367,7 @@
 }
 
 .box-content h3 {
+  width: 50%;
   color: #FFFFFF;
   font-size: 5rem;
   letter-spacing: 2px;
@@ -1926,7 +1927,7 @@ body {
 .header {
   position: fixed;
   z-index: 999;
-  width: 30rem;
+  width: 33rem;
   min-height: 100vh;
   background-color: #000;
   padding: 5rem 10rem 0 6rem;
