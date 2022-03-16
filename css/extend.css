@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 .home {
   width: 100%;
-  height: 500px;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,27 +14,27 @@
 }
 
 .home .home-all {
-  width: 85rem;
-  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 10rem;
-  margin-left: 30%;
+  margin-left: 30vw;
 }
 
 @media only screen and (min-device-width: 1350px) {
   .home .home-all {
-    margin-left: 25vw !important;
-    font-size: 16px;
+    font-size: 15px;
+    margin-left: 30vw !important;
   }
 }
 
@@ -51,12 +51,32 @@
 
 @media only screen and (max-device-width: 990px) {
   .home .home-all {
-    margin-top: 70% !important;
-    width: 100% !important;
+    margin-top: 20% !important;
   }
 }
 
-.home .home-all .profile-box {
+.home .home-all .home-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-device-width: 990px) {
+  .home .home-all .home-main {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.home .home-all .home-main .profile-box {
   height: 300px;
   width: 300px;
   margin-top: 30px;
@@ -71,7 +91,7 @@
 }
 
 @media only screen and (max-device-width: 1000px) {
-  .home .home-all .profile-box {
+  .home .home-all .home-main .profile-box {
     width: 34vw !important;
     height: 34vw !important;
     margin-bottom: 5% !important;
@@ -79,14 +99,14 @@
   }
 }
 
-.home .home-all .profile-box:hover {
+.home .home-all .home-main .profile-box:hover {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
   -webkit-box-shadow: 0 5px 80px rgba(0, 0, 0, 0.5);
           box-shadow: 0 5px 80px rgba(0, 0, 0, 0.5);
 }
 
-.home .home-all .profile-box img {
+.home .home-all .home-main .profile-box img {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -97,12 +117,12 @@
   transition: 1s ease all;
 }
 
-.home .home-all .profile-box:hover img {
+.home .home-all .home-main .profile-box:hover img {
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
 }
 
-.home .home-all .profile-box .box-content {
+.home .home-all .home-main .profile-box .box-content {
   color: white;
   position: absolute;
   width: 100%;
@@ -116,46 +136,46 @@
 }
 
 @media only screen and (max-device-width: 990px) {
-  .home .home-all .profile-box .box-content {
+  .home .home-all .home-main .profile-box .box-content {
     padding: 0 !important;
     font-size: 1rem !important;
   }
 }
 
-.home .home-all .profile-box:hover .box-content {
+.home .home-all .home-main .profile-box:hover .box-content {
   padding-bottom: 35px;
   padding-top: 15px;
   height: 80px;
 }
 
 @media only screen and (max-device-width: 990px) {
-  .home .home-all .profile-box:hover .box-content {
+  .home .home-all .home-main .profile-box:hover .box-content {
     padding-bottom: 10px !important;
     padding-top: 5px !important;
     height: 50px !important;
   }
 }
 
-.home .home-all .profile-box .box-content h3 {
+.home .home-all .home-main .profile-box .box-content h3 {
   margin-bottom: 15px;
   font-size: 15px;
   letter-spacing: 1px;
 }
 
 @media only screen and (max-device-width: 990px) {
-  .home .home-all .profile-box .box-content h3 {
+  .home .home-all .home-main .profile-box .box-content h3 {
     font-size: 1rem !important;
     margin-bottom: 5px !important;
   }
 }
 
-.home .home-all .profile-box .social-links {
+.home .home-all .home-main .profile-box .social-links {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.home .home-all .profile-box .social-links li {
+.home .home-all .home-main .profile-box .social-links li {
   width: 15px;
   height: 15px;
   background: #efefef;
@@ -169,28 +189,28 @@
 }
 
 @media only screen and (max-device-width: 990px) {
-  .home .home-all .profile-box .social-links li {
+  .home .home-all .home-main .profile-box .social-links li {
     width: 8px !important;
     height: 8px !important;
   }
 }
 
-.home .home-all .profile-box .social-links li:nth-child(2) {
+.home .home-all .home-main .profile-box .social-links li:nth-child(2) {
   -webkit-transition-delay: 0.25s;
           transition-delay: 0.25s;
 }
 
-.home .home-all .profile-box .social-links li:last-child {
+.home .home-all .home-main .profile-box .social-links li:last-child {
   -webkit-transition-delay: 0.35s;
           transition-delay: 0.35s;
 }
 
-.home .home-all .profile-box:hover .social-links li {
+.home .home-all .home-main .profile-box:hover .social-links li {
   -webkit-transform: none;
           transform: none;
 }
 
-.home .home-all .home-info {
+.home .home-all .home-main .home-info {
   width: 50%;
   height: -webkit-max-content;
   height: -moz-max-content;
@@ -212,25 +232,20 @@
   margin-bottom: 2rem !important;
 }
 
-@media only screen and (max-device-width: 1000px) {
-  .home .home-all .home-info {
-    width: 75.84vw  !important;
-    padding-left: 10rem !important;
+@media only screen and (max-device-width: 480px) {
+  .home .home-all .home-main .home-info {
+    margin-left: 0rem !important;
     margin-bottom: 2rem !important;
-    margin-left: 1rem !important;
   }
 }
 
 @media only screen and (max-device-width: 990px) {
-  .home .home-all .home-info {
-    width: 60vw  !important;
-    margin: 0 auto;
+  .home .home-all .home-main .home-info {
     margin-bottom: 3rem;
-    margin-left: -1rem !important;
   }
 }
 
-.home .home-all .home-info .info-name h3 {
+.home .home-all .home-main .home-info .info-name h3 {
   width: 100%;
   color: #FFFFFF;
   font-size: 5rem;
@@ -242,25 +257,25 @@
 }
 
 @media only screen and (max-device-width: 1000px) {
-  .home .home-all .home-info .info-name h3 {
+  .home .home-all .home-main .home-info .info-name h3 {
     width: 55rem !important;
   }
 }
 
 @media only screen and (max-device-width: 990px) {
-  .home .home-all .home-info .info-name h3 {
+  .home .home-all .home-main .home-info .info-name h3 {
     width: 55.84vw !important;
     font-size: 3.5rem !important;
   }
 }
 
 @media only screen and (max-device-width: 760px) {
-  .home .home-all .home-info .info-name h3 {
+  .home .home-all .home-main .home-info .info-name h3 {
     font-size: 2.5rem !important;
   }
 }
 
-.home .home-all .home-info .info-text {
+.home .home-all .home-main .home-info .info-text {
   color: #bbb;
   font-size: 1.5rem;
   line-height: 3rem;
@@ -269,17 +284,17 @@
   margin-bottom: 2rem;
 }
 
-.home .home-all .home-info .info-text p {
+.home .home-all .home-main .home-info .info-text p {
   width: 85%;
 }
 
 @media only screen and (max-device-width: 990px) {
-  .home .home-all .home-info .info-text p {
+  .home .home-all .home-main .home-info .info-text p {
     width: 100%;
   }
 }
 
-.home .home-all .home-info .info-socials {
+.home .home-all .home-main .home-info .info-socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -290,20 +305,20 @@
 }
 
 @media only screen and (max-device-width: 990px) {
-  .home .home-all .home-info .info-socials {
+  .home .home-all .home-main .home-info .info-socials {
     margin-right: 1rem;
   }
 }
 
-.home .home-all .home-info .info-socials a {
+.home .home-all .home-main .home-info .info-socials a {
   width: 30px !important;
 }
 
-.home .home-all .home-info .info-socials .i {
+.home .home-all .home-main .home-info .info-socials .i {
   color: #bbb;
 }
 
-.home .home-all .home-info .info-socials .i i {
+.home .home-all .home-main .home-info .info-socials .i i {
   margin-top: .7rem;
   font-size: 1.8rem;
   -webkit-transform: scale(1);
@@ -313,12 +328,12 @@
 }
 
 @media only screen and (max-device-width: 990px) {
-  .home .home-all .home-info .info-socials .i i {
+  .home .home-all .home-main .home-info .info-socials .i i {
     font-size: 1.5rem !important;
   }
 }
 
-.home .home-all .home-info .info-socials .i i:hover {
+.home .home-all .home-main .home-info .info-socials .i i:hover {
   color: #FFFFFF;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
