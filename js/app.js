@@ -1,13 +1,6 @@
 // // cursor
 // const root = document.querySelector('html')
 
-// // Real cursor element
-// const cursor = document.createElement('div')
-// cursor.classList.add('cursor')
-// root.appendChild(cursor)
-
-
-
 
 
 
