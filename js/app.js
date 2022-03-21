@@ -1,11 +1,3 @@
-// // cursor
-// const root = document.querySelector('html')
-
-
-
-
-
-
 // section change
 let arr = [
  document.querySelector(".home"),
