@@ -4,10 +4,11 @@ let arr = [
  document.querySelector(".about"),
  document.querySelector(".portfolio"),
 document.querySelector(".blogs"),
- document.querySelector(".contact")];
+ document.querySelector(".contact")
+];
 
 
- let nav__menu = document.querySelectorAll(".menu-li")
+let nav__menu = document.querySelectorAll(".menu-li")
  
 
 for(let i =0;i<nav__menu.length;i++){
@@ -16,9 +17,6 @@ for(let i =0;i<nav__menu.length;i++){
         arr[i].style.display="flex";
         arr[i].classList.add("section__anima")
 
-
-
-
         for(let x = 0; x<arr.length;x++){
             if(x==i)
                 continue
@@ -26,9 +24,7 @@ for(let i =0;i<nav__menu.length;i++){
              arr[x].style.opacity="0"
              arr[x].style.display = "none";
             arr[x].classList.remove("section__anima")
-            }
-           
-            
+            }    
         });
         
         
