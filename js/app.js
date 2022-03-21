@@ -6,11 +6,6 @@
 // cursor.classList.add('cursor')
 // root.appendChild(cursor)
 
-// // Following extra cursor element
-// const follower = document.createElement('div')
-// follower.classList.add('cursor', 'cursor__follower')
-// root.appendChild(follower)
-
 
 
 
