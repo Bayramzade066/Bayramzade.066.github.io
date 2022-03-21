@@ -12,12 +12,6 @@
 // root.appendChild(follower)
 
 
-// document.addEventListener('mousemove', (e) => {
-//     setPosition(follower, e)
-//     setPosition(cursor, e)
-    
-// })
-
 
 
 
