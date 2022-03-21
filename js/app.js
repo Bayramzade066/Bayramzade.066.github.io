@@ -19,9 +19,6 @@
 // })
 
 
-// function setPosition(element, e) {
-//   element.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`
-// }
 
 
 
