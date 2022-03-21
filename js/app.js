@@ -26,8 +26,6 @@ for(let i =0;i<nav__menu.length;i++){
             arr[x].classList.remove("section__anima")
             }    
         });
-        
-        
 }
 
 
