@@ -39,8 +39,6 @@ let preloader = document.querySelector(".preloader")
     setInterval(function() {
         preloader.style.display="none"
     }, 3000);
-    
-
 
 // music
 var state=0;
