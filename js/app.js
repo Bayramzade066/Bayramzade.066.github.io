@@ -28,8 +28,6 @@ for(let i =0;i<nav__menu.length;i++){
         });
 }
 
-
-
 // preloader
 let preloader = document.querySelector(".preloader")
 
