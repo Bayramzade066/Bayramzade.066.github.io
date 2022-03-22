@@ -63,8 +63,6 @@ $(document).ready(function(){
       
 });
 
-
-
 // writing animation
 
 var txt2write = new Array(
