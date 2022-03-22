@@ -7,10 +7,8 @@ document.querySelector(".blogs"),
  document.querySelector(".contact")
 ];
 
-
 let nav__menu = document.querySelectorAll(".menu-li")
  
-
 for(let i =0;i<nav__menu.length;i++){
         nav__menu[i].addEventListener("click",()=>{
             arr[i].style.opacity="1"
