@@ -64,7 +64,6 @@ $(document).ready(function(){
 });
 
 // writing animation
-
 var txt2write = new Array(
     "Writing code is like poetry — it’s a form of art.",
     "Staying motivated should be the top priority of any",
