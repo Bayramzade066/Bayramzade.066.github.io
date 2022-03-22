@@ -103,7 +103,6 @@ function type_text() {
     }
 }
 
-
 let about = document.querySelector("#about")
 
 about.addEventListener('click',()=>{
