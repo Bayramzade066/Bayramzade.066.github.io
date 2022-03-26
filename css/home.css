@@ -37,20 +37,14 @@
   }
 }
 
-@media only screen and (max-device-width: 1000px) {
+@media only screen and (max-device-width: 990px) {
   .home .home-all {
     margin: 0 auto !important;
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
-    margin-top: 50% !important;
-  }
-}
-
-@media only screen and (max-device-width: 990px) {
-  .home .home-all {
-    margin-top: 20% !important;
+    margin-top: 5% !important;
   }
 }
 

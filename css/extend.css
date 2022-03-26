@@ -38,20 +38,14 @@
   }
 }
 
-@media only screen and (max-device-width: 1000px) {
+@media only screen and (max-device-width: 990px) {
   .home .home-all {
     margin: 0 auto !important;
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
-    margin-top: 50% !important;
-  }
-}
-
-@media only screen and (max-device-width: 990px) {
-  .home .home-all {
-    margin-top: 20% !important;
+    margin-top: 5% !important;
   }
 }
 
@@ -434,6 +428,13 @@
   padding-bottom: 10rem;
 }
 
+@media only screen and (min-device-width: 1350px) {
+  .about .about-all {
+    font-size: 15px;
+    margin-left: 25vw !important;
+  }
+}
+
 @media only screen and (max-device-width: 1000px) {
   .about .about-all {
     margin: 0 auto !important;
@@ -637,6 +638,13 @@
   padding-top: 10rem;
   padding-bottom: 10rem;
   margin-right: 5rem;
+}
+
+@media only screen and (min-device-width: 1350px) {
+  .portfolio .portfolio-all {
+    font-size: 15px;
+    margin-left: 25vw !important;
+  }
 }
 
 @media only screen and (max-device-width: 1000px) {
@@ -872,6 +880,13 @@ a {
   padding-top: 10rem;
   padding-bottom: 10rem;
   margin-right: 5rem;
+}
+
+@media only screen and (min-device-width: 1350px) {
+  .blogs .blogs-all {
+    font-size: 15px;
+    margin-left: 25vw !important;
+  }
 }
 
 @media only screen and (max-device-width: 1000px) {
@@ -1147,6 +1162,13 @@ a {
   margin-left: 30%;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+@media only screen and (min-device-width: 1350px) {
+  .contact .contact-all {
+    font-size: 15px;
+    margin-left: 25vw !important;
+  }
 }
 
 @media only screen and (max-device-width: 1000px) {

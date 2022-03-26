@@ -22,7 +22,10 @@ a{
         padding-top: 10rem;
         padding-bottom: 10rem;
         margin-right: 5rem;
-
+        @include respond(lgscreen){
+            font-size: 15px;
+            margin-left: 25vw !important;
+          }
         @include respond(desktop){
             margin: 0 auto !important;
             // flex-direction: column !important;

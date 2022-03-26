@@ -19,14 +19,12 @@
         font-size: 15px;
         margin-left: 30vw !important;
       }
-      @include respond(desktop){
+      @include respond(laptop){
         margin: 0 auto !important;
         flex-direction: column !important;
-        margin-top: 50% !important;
+        margin-top: 5% !important;
       }
-      @include respond(laptop){
-        margin-top: 20% !important;
-    }
+
 
 
     .home-main{

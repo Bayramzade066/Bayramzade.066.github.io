@@ -35,6 +35,13 @@ a {
   margin-right: 5rem;
 }
 
+@media only screen and (min-device-width: 1350px) {
+  .blogs .blogs-all {
+    font-size: 15px;
+    margin-left: 25vw !important;
+  }
+}
+
 @media only screen and (max-device-width: 1000px) {
   .blogs .blogs-all {
     margin: 0 auto !important;
